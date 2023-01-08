@@ -17,5 +17,5 @@ else if ( day_of_the_week <= 5 && day_of_the_week > 0)
 }
 else 
 {
-    Console.WriteLine("Вы ввели число выходящее за рамки");
+    Console.WriteLine("Вы ввели число отличное от условия");
 }
