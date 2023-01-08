@@ -10,6 +10,7 @@
 Console.WriteLine("Введите число от 1 до 100");
 int number_man_1 = Convert.ToInt32(Console.ReadLine());
 int number_man = number_man_1;
+int number_man_2 = number_man_1;
 int i = 0;
 
 
@@ -26,7 +27,7 @@ if (number_man < 1 || number_man > 100)
 
 else if (number_man > 9 && number_man < 21 || number_man == 30 || number_man == 40 || number_man == 50 || number_man == 60 || number_man == 70 || number_man == 80 || number_man == 90 || number_man == 100)
 {
-    Console.WriteLine("программистов");
+    Console.WriteLine(number_man_2 + " программистов");
 }
 
 else
@@ -36,9 +37,9 @@ else
     {   
         if (i == count && number_man >= 1 && number_man <= 10)
         {
-            if (number_man == 1) Console.WriteLine("программист");
-            else if (number_man >= 2 && number_man <= 4) Console.WriteLine("программиста");
-            else if (number_man == 0 || number_man >= 5 && number_man <= 9) Console.WriteLine("программистов");
+            if (number_man == 1) Console.WriteLine(number_man_2 + " программист");
+            else if (number_man >= 2 && number_man <= 4) Console.WriteLine(number_man_2 + " программиста");
+            else if (number_man == 0 || number_man >= 5 && number_man <= 9) Console.WriteLine(number_man_2 + " программистов");
         }
         else
         {
