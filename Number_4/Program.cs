@@ -24,7 +24,7 @@ if (number_man < 1)
      Console.WriteLine("Задано неверное число");
 }
 
-else if (number_man > 10 && number_man < 21)
+else if (number_man > 9 && number_man < 21)
 {
     Console.WriteLine("программистов");
 }
