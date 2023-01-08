@@ -7,7 +7,7 @@
 // В комнате может быть очень много программистов. Проверьте, что ваша программа правильно обработает все случаи, как минимум до 100 человек.
 
 
-Console.WriteLine("Введите число");
+Console.WriteLine("Введите число от 1 до 100");
 int number_man_1 = Convert.ToInt32(Console.ReadLine());
 int number_man = number_man_1;
 int i = 0;
@@ -19,12 +19,12 @@ while (number_man_1 > 0)
     i++;
 }
 
-if (number_man < 1)
+if (number_man < 1 || number_man > 100)
 {
      Console.WriteLine("Задано неверное число");
 }
 
-else if (number_man > 9 && number_man < 21)
+else if (number_man > 9 && number_man < 21 || number_man == 30 || number_man == 40 || number_man == 50 || number_man == 60 || number_man == 70 || number_man == 80 || number_man == 90 || number_man == 100)
 {
     Console.WriteLine("программистов");
 }
