@@ -34,5 +34,5 @@ if (i >= 3)
 }
 else
 {
-    Console.WriteLine("нет");
+    Console.WriteLine("Третьей цифры не найдено");
 }
