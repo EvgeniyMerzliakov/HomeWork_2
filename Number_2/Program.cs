@@ -18,18 +18,12 @@ while (x > 0)
 if (i >= 3)
 {
     int count = 3;
-    while (i >= count)
+    while (i > count)
     {
-        if (i == count)
-        {
-            x1 = x1 % 10;
-        }
-        else 
-        {
-            x1 = x1 / 10;
-        }
+        x1 = x1 / 10;
         count++;
     }
+    x1 = x1 % 10;
     Console.WriteLine(x1);
 }
 else
